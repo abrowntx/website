@@ -1,38 +1,50 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>page</title>
-        <style>
-                * { padding: 0; margin: 0; }
-                canvas { background: #eee; display: block; margin: 0 auto; }
-        </style>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Righteous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla">
+        
+        <title>birds and nirds</title>
     </head>
     <body>
 
-        <canvas id="myCanvas" width="480" height="320"></canvas>
+        <div class="wrapper">
+            <img class="headerimg2" src="img/bird_male.png" alt="">
+            <img class="headerimg1" src="img/bird_female.png" alt="">
+        </div>
+        <div>
+            <div class="headert1">birds</div>
+            <div class="headert2">&</div>
+            <div class="headert3">nerds</div>
+        </div>
 
-        <script>
-            var canvas = document.getElementById("myCanvas");
-            var ctx = canvas.getContext("2d");
+        <div>
+            <div class="content1">
+                <p> asldkfjsdf
+                    asldkfjsdfasdf
+                    asdg
+                    asgd<br>
+                    adsfgasdg
+                    asg a gsad gasdg asdg wregaehg <br>
+                    asdfgasdfg
+                    as df
+                </p>
+            </div>
 
-            ctx.beginPath();
-            ctx.rect(20, 40, 50, 50);
-            ctx.fillStyle = "#FF0000";
-            ctx.fill();
-            ctx.closePath();
+            <div class="content2">
+                <p> asldkfjsdf
+                    asldkfjsdfasdf
 
-            ctx.beginPath();
-            ctx.arc(240, 160, 20, 0, Math.PI*2, false);
-            ctx.fillStyle = "green";
-            ctx.fill();
-            ctx.closePath();
-
-            ctx.beginPath();
-            ctx.rect(160, 10, 100, 40);
-            ctx.strokeStyle = "rgba(0, 0, 255, 0.5)";
-            ctx.stroke();
-            ctx.closePath();
-        </script>
+                    asdg
+                    asgd<br>
+                    adsfgasdg
+                    asg a gsad gasdg asdg wregaehg <br>
+                    asdfgasdfg
+                    as df
+                </p>
+            </div>
+        </div>
 
     </body>
 </html>
