@@ -1,10 +1,13 @@
-body { background-color: #EBD7C3; margin: 0; padding: 0; }
+body { background-color: #EBD7C3; margin: 0; padding: 0; overflow-x: hidden; }
 p { padding-left:25px; padding-right: 25px; }
 
-.wrapper { width: 100%; height: 400px; }
-
+.wrapper { width: 100%; height: 430px; }
 .headerimg1 { height:350; position: absolute; right: 580px; top: 10px; }
 .headerimg2 { height:350; position: absolute; right: 300px; top: 10px; }
+
+.headerbg1 { background-color: #D24541; width: 200%; height: 250px; position: absolute; left: -250px; top: -100px; transform: rotate(-20deg); }
+.headerbg2 { background-color: #D2998D; width: 200%; height: 200px; position: absolute; left: -250px; top: -100px; transform: rotate(-15deg); }
+.headerbg3 { background-color: #615B5B; width: 200%; height: 400px; position: absolute; left: -250px; top: -350px; transform: rotate(-10deg); }
 
 .headert1 { position: absolute; right: 615px; top: 265; font-family: 'Righteous', cursive; font-size: 90px; color: #313C3E; transform: rotate(-15deg); 	text-shadow:
     -2px -2px 0 #EBD7C3, 2px -2px 0 #EBD7C3, -2px 2px 0 #EBD7C3, 2px 2px 0 #EBD7C3; }
@@ -12,6 +15,9 @@ p { padding-left:25px; padding-right: 25px; }
     -2px -2px 0 #EBD7C3, 2px -2px 0 #EBD7C3, -2px 2px 0 #EBD7C3, 2px 2px 0 #EBD7C3; }
 .headert3 { position: absolute; right: 480px; top: 295; font-family: 'Righteous', cursive; font-size: 115px; color: #313C3E; transform: rotate(-8deg); 	text-shadow:
     -2px -2px 0 #EBD7C3, 2px -2px 0 #EBD7C3, -2px 2px 0 #EBD7C3, 2px 2px 0 #EBD7C3; }
+.divider { position: absolute; height: 10px; width: 100%; background-color: #615B5B; }
 
-.content1 { width: 940px; height: 500px; position: absolute; right:15px; top: 415px; font-family: 'Karla', sans-serif; }
-.content2 { width: 935px; height: 500px; position: absolute; left:15px; top: 415px; font-family: 'Karla', sans-serif; }
+.content1 { width: 925px; height: 475px; position: absolute; left:15px; font-family: 'Karla', sans-serif; background-color: #EBD7C3; }
+.content2 { width: 925px; height: 475px; position: absolute; left:955px; font-family: 'Karla', sans-serif; background-color: #EBD7C3; }
+
+.page { width: 100%; height: 500px; position: absolute; background-color: #615B5B; padding: 25px; }
