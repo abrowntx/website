@@ -6,9 +6,12 @@ p { padding-left:25px; padding-right: 25px; }
 .headerimg1 { height:350; position: absolute; right: 580px; top: 10px; }
 .headerimg2 { height:350; position: absolute; right: 300px; top: 10px; }
 
-.headert1 { position: absolute; right: 615px; top: 325; font-family: 'Righteous', cursive; font-size: 70px; color: #313C3E; }
-.headert2 { position: absolute; right: 580px; top: 330; font-family: 'Righteous', cursive; font-size: 70px; color: #313C3E; }
-.headert3 { position: absolute; right: 397px; top: 325; font-family: 'Righteous', cursive; font-size: 70px; color: #313C3E; }
+.headert1 { position: absolute; right: 615px; top: 265; font-family: 'Righteous', cursive; font-size: 90px; color: #313C3E; transform: rotate(-15deg); 	text-shadow:
+    -2px -2px 0 #EBD7C3, 2px -2px 0 #EBD7C3, -2px 2px 0 #EBD7C3, 2px 2px 0 #EBD7C3; }
+.headert2 { position: absolute; right: 580px; top: 260; font-family: 'Righteous', cursive; font-size: 85px; color: #313C3E; transform: rotate(-5deg); 	text-shadow:
+    -2px -2px 0 #EBD7C3, 2px -2px 0 #EBD7C3, -2px 2px 0 #EBD7C3, 2px 2px 0 #EBD7C3; }
+.headert3 { position: absolute; right: 480px; top: 295; font-family: 'Righteous', cursive; font-size: 115px; color: #313C3E; transform: rotate(-8deg); 	text-shadow:
+    -2px -2px 0 #EBD7C3, 2px -2px 0 #EBD7C3, -2px 2px 0 #EBD7C3, 2px 2px 0 #EBD7C3; }
 
 .content1 { width: 940px; height: 500px; position: absolute; right:15px; top: 415px; font-family: 'Karla', sans-serif; }
 .content2 { width: 935px; height: 500px; position: absolute; left:15px; top: 415px; font-family: 'Karla', sans-serif; }
